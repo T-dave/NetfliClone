@@ -38,6 +38,7 @@ function SearchScreen({navigation}) {
       <Text style={styles.topText}>Top Searches</Text>
       <FlatList
             data={data}
+            showsVerticalScrollIndicator={false}
             renderItem={({item}) => <SearchCard image={item.image} movie={item.movie}/> }
         />
         

@@ -28,6 +28,7 @@ export function ComingCard({image, movie, description, genre}) {
             <FlatList
             data={genre}
             horizontal
+            showsVerticalScrollIndicator={false}
             renderItem={({item}) => 
             <View style={{flexDirection:"row", alignItems:"center"}}>
                 <Text style={styles.text4}>{item}</Text>

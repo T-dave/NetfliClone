@@ -10,6 +10,7 @@ export function Card1({text, data}) {
        <FlatList
             data={data}
             horizontal
+            showsHorizontalScrollIndicator={false}
             renderItem={({item}) => <Image source={item.image} style={styles.image1} resizeMode='center'/> }
         />
         
@@ -23,6 +24,7 @@ export function Card2({text, data}) {
          <FlatList
               data={data}
               horizontal
+              showsHorizontalScrollIndicator={false}
               renderItem={({item}) => 
               <View style={styles.view2}>
                 <Image source={item.image} style={styles.image2} resizeMode='center'/> 
@@ -49,6 +51,7 @@ export function Card2({text, data}) {
          <FlatList
               data={data}
               horizontal
+              showsHorizontalScrollIndicator={false}
               renderItem={({item}) => 
               <View style={styles.view2}>
                 <Image source={item.image} style={{width:103, height:161}} resizeMode='center'/>
@@ -67,6 +70,7 @@ export function Card2({text, data}) {
          <FlatList
               data={data}
               horizontal
+              showsHorizontalScrollIndicator={false}
               renderItem={({item}) => 
               <View style={styles.view2}>
                 <Image source={item.image} style={{width:154, height:251}} resizeMode='center'/>

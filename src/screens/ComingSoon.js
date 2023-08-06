@@ -24,7 +24,7 @@ function ComingScreen({navigation}) {
   ]
   return (
     <View style={styles.container}>
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
       <View style={{flexDirection:"row", alignItems:"center", margin:15}}>
        <Image source={require("../../assets/notification.png")} style={{width:19, height:19, marginRight:8}} resizeMode='center'/>
        <Text style={styles.topText}>Notification</Text>
@@ -33,6 +33,7 @@ function ComingScreen({navigation}) {
         <FlatList
             data={data2}
             scrollEnabled={false}
+            showsVerticalScrollIndicator={false}
             renderItem={({item}) => <ArrivalCard image={item.image} movie={item.movie} date={item.date}/> }
         />
       </View>
@@ -40,6 +41,7 @@ function ComingScreen({navigation}) {
       <FlatList
             data={data}
             scrollEnabled={false}
+            showsVerticalScrollIndicator={false}
             renderItem={({item}) => <ComingCard image={item.image} movie={item.movie} description={item.description} genre={item.genre}/> }
         />
       </ScrollView>

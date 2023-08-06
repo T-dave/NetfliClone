@@ -331,10 +331,10 @@ function HomeScreen({navigation}) {
        </View>
 
        <View style={styles.view3}>
-        <View style={{alignItems:"center", justifyContent:"center"}}>
+        <TouchableOpacity style={{alignItems:"center", justifyContent:"center"}} onPress={()=>navigation.navigate("List")}>
             <Image source={require('../../assets/plus.png')} style={{height:24, width:24}}/>
             <Text style={{fontWeight:500, fontSize:18, color:"white"}}>My List</Text>
-        </View>
+        </TouchableOpacity>
         <View style={styles.playView}>
             <Image source={require('../../assets/play.png')} style={{height:30, width:72}}/>
         </View>

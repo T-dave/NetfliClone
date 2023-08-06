@@ -96,6 +96,7 @@ function ListScreen({navigation}) {
          <FlatList
             data={DATA1}
             numColumns={3}
+            showsVerticalScrollIndicator={false}
             renderItem={({item}) => <Image source={item.image} style={{height:121, width:"33%", marginRight:3, marginBottom:3}}/> }
         />
         </View>
