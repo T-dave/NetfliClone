@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "/Users/T-dave/Desktop/NetfliClone/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "154,258",
+                        "endColumns": "63,68",
+                        "endOffsets": "213,322"
+                    },
+                    "to": {
+                        "startLines": "657,658",
+                        "startColumns": "4,4",
+                        "startOffsets": "41723,41787",
+                        "endColumns": "63,68",
+                        "endOffsets": "41782,41851"
+                    }
+                },
+                {
                     "source": "/Users/T-dave/.gradle/caches/transforms-3/a4997376de8608226a9382e2bc1486b8/transformed/recyclerview-1.1.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -56,25 +73,6 @@
                         "endLines": "57,346,347,348,356,357,358,588,6427",
                         "endColumns": "55,58,47,55,74,75,71,65,24",
                         "endOffsets": "3301,22510,22558,22614,23300,23376,23448,38057,362571"
-                    }
-                },
-                {
-                    "source": "/Users/T-dave/Desktop/NetflixClone/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
-                    },
-                    "to": {
-                        "startLines": "824",
-                        "startColumns": "4",
-                        "startOffsets": "59852",
-                        "endLines": "827",
-                        "endColumns": "12",
-                        "endOffsets": "60030"
                     }
                 },
                 {
@@ -95,6 +93,25 @@
                     }
                 },
                 {
+                    "source": "/Users/T-dave/Desktop/NetfliClone/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "824",
+                        "startColumns": "4",
+                        "startOffsets": "59852",
+                        "endLines": "827",
+                        "endColumns": "12",
+                        "endOffsets": "60030"
+                    }
+                },
+                {
                     "source": "/Users/T-dave/.gradle/caches/transforms-3/c9cf141449a23f4bfaa6ae81cbbf55b2/transformed/lifecycle-viewmodel-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -109,6 +126,23 @@
                         "startOffsets": "40423",
                         "endColumns": "49",
                         "endOffsets": "40468"
+                    }
+                },
+                {
+                    "source": "/Users/T-dave/Desktop/NetfliClone/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "49",
+                        "endOffsets": "61"
+                    },
+                    "to": {
+                        "startLines": "694",
+                        "startColumns": "4",
+                        "startOffsets": "44325",
+                        "endColumns": "49",
+                        "endOffsets": "44370"
                     }
                 },
                 {
@@ -245,23 +279,6 @@
                     }
                 },
                 {
-                    "source": "/Users/T-dave/Desktop/NetflixClone/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "154,258",
-                        "endColumns": "63,68",
-                        "endOffsets": "213,322"
-                    },
-                    "to": {
-                        "startLines": "657,658",
-                        "startColumns": "4,4",
-                        "startOffsets": "41723,41787",
-                        "endColumns": "63,68",
-                        "endOffsets": "41782,41851"
-                    }
-                },
-                {
                     "source": "/Users/T-dave/.gradle/caches/transforms-3/0d0b6a86cfe67bd646eb415466cd8d38/transformed/jetified-startup-runtime-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -276,23 +293,6 @@
                         "startOffsets": "44242",
                         "endColumns": "82",
                         "endOffsets": "44320"
-                    }
-                },
-                {
-                    "source": "/Users/T-dave/Desktop/NetflixClone/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "49",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "694",
-                        "startColumns": "4",
-                        "startOffsets": "44325",
-                        "endColumns": "49",
-                        "endOffsets": "44370"
                     }
                 },
                 {
