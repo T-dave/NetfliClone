@@ -112,7 +112,6 @@ const styles = StyleSheet.create({
     container:{
         backgroundColor:"black",
         flex:1,
-        paddingTop:30,
     },
     text1:{
         color:"white",
@@ -147,6 +146,11 @@ const styles = StyleSheet.create({
         fontWeight:"500",
         marginTop:7
     },
+    copyText:{
+        color:"black",
+        fontSize:17.06,
+        fontWeight:"600",
+    },
     accounts:{
         alignItems:"center",
         justifyContent:"flex-end", 
@@ -178,13 +182,12 @@ const styles = StyleSheet.create({
         backgroundColor:"black"
     },
     copyButton:{
-        width:96,
-        height:37,
         backgroundColor:"white",
         alignItems:"center",
         justifyContent:"center",
         borderRadius:5,
-        marginLeft:15
+        marginLeft:15,
+        padding:8
     },
     socialView:{
         borderRightColor:"#8C8787",

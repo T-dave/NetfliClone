@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
         backgroundColor:"black",
         flex:1,
         paddingHorizontal:20,
-        paddingTop:30
     },
     image:{
         width:"36.8%",
